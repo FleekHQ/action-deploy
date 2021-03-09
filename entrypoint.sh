@@ -23,9 +23,6 @@ if [ -n "${INPUT_WORKDIR}" ]; then
   echo "Changed to working directory: $(pwd)"
 fi
 
-
-fleek config:set --environment dev
-
 echo "Executing sites deploy"
 output=$(fleek site:deploy"$flags")
 if [ $? -ne 0 ]; then

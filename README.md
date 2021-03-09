@@ -29,7 +29,7 @@ jobs:
 
 The action can be configured with the following input arguments:
 
-- apiKey (required) - Your Fleek scoped API key that has permission to the deploy to the configured site. 
+- apiKey (required) - Your Fleek scoped API key that has permission to deploy to the configured site. 
 
 - workDir (optional) - The location of your .fleek.json config file. Defaults to repositories base directory.
 
