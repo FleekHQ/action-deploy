@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  test-deploy:
+    runs-on: ubuntu-latest
+    name: A job to test the action-deploy action by deploying a test site
+    steps:
+      - name: Deploy test site
+        id: deploy
+#        uses: fleekhq/action-deploy@v1
+        uses: ./
+        with:
+          api-key: ${{ secrets.FLEEK_API_KEY }}
+      - name: Get the output url
+        run: echo "The time was ${{ steps.deploy.outputs.deploy-url }}"

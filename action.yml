@@ -1,0 +1,18 @@
+name: 'Fleek Site Depoly Action'
+description: 'Deploy Fleek '
+inputs:
+  apiKey:
+    description: 'Fleek Scoped Api Key'
+    required: true
+  workDir:
+    description: 'Path to directory where fleek site is initialized (optional)'
+    required: false
+  commitHash:
+    description: 'Commit Hash of configured git repository to deploy'
+    required: false
+outputs:
+  deployUrl:
+    description: 'Website Url to view the API'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

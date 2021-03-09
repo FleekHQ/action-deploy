@@ -1,0 +1,14 @@
+{
+  "site": {
+    "id": "76f85bbb-6336-4a65-be4e-14a23b27427c",
+    "team": "perfectmak-55701-team",
+    "platform": "ipfs",
+    "source": "ipfs",
+    "name": "odd-bonus-1873"
+  },
+  "build": {
+    "baseDir": "",
+    "publicDir": "test",
+    "rootDir": "/Users/perfect/Terminal/action-deploy"
+  }
+}
