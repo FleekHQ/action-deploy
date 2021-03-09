@@ -11,6 +11,6 @@ jobs:
 #        uses: fleekhq/action-deploy@v1
         uses: ./
         with:
-          api-key: ${{ secrets.FLEEK_API_KEY }}
+          apiKey: ${{ secrets.FLEEK_API_KEY }}
       - name: Get the output url
         run: echo "The time was ${{ steps.deploy.outputs.deploy-url }}"
