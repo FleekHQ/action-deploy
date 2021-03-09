@@ -1,5 +1,9 @@
-name: 'Fleek Site Depoly Action'
-description: 'Deploy Fleek '
+name: 'Fleek Deploy Action'
+description: 'Deploy Fleek Sites in Github actions'
+author: 'Fleek Labs'
+branding:
+  icon: circle
+  color: gray-dark
 inputs:
   apiKey:
     description: 'Fleek Scoped Api Key'
