@@ -21,7 +21,7 @@ jobs:
         with:
           apiKey: ${{ secrets.FLEEK_API_KEY }}
       - name: Get the output url
-        run: echo "The time was ${{ steps.deploy.outputs.deployUrl }}"
+        run: echo "Deploy url is ${{ steps.deploy.outputs.deployUrl }}"
 ```
 
 
