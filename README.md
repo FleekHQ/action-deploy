@@ -1,6 +1,14 @@
+![](https://storageapi.fleek.co/fleek-team-bucket/Blog%20Inline/deploy-action.png)
+
+# Deploy Action
+[![Fleek](https://img.shields.io/badge/Made%20by-Fleek-blue)](https://fleek.co/)
+[![Dev Slack](https://img.shields.io/badge/Dev%20Slack-Channel-blue)](https://slack.fleek.co/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/FleekHQ/space-sdk/blob/master/LICENSE)
+
+
 ## Introduction
 
-Fleek's Deploy Action provides an easy way to deploy your configured fleek site's publish directory.
+Fleek's Deploy Action provides an easy way to deploy your configured Fleek site's publish directory.
 
 ## Example Usage
 
