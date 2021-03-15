@@ -24,7 +24,7 @@ if [ -n "${INPUT_WORKDIR}" ]; then
 fi
 
 echo "Executing sites deploy"
-output=$(fleek site:deploy"$flags")
+output=$(fleek site:deploy"$flags" 2>&1)
 if [ $? -ne 0 ]; then
   echo "$output"
   echo "Site deployment failed"
