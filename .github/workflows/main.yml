@@ -13,4 +13,4 @@ jobs:
         with:
           apiKey: ${{ secrets.FLEEK_API_KEY }}
       - name: Get the output url
-        run: echo "The deploy url ${{ steps.deploy.outputs.deploy-url }}"
+        run: echo "The deploy url ${{ steps.deploy.outputs.deployUrl }}"
