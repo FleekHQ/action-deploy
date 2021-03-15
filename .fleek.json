@@ -9,6 +9,6 @@
   "build": {
     "baseDir": "",
     "publicDir": "test",
-    "rootDir": "/Users/perfect/Terminal/action-deploy"
+    "rootDir": ""
   }
 }

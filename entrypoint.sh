@@ -3,7 +3,7 @@
 export PATH="/home/node/.npm-global/bin:$PATH"
 
 if [ -z "$INPUT_APIKEY" ]; then
-  echo "INPUT_APIKEY is required"
+  echo "apiKey is required"
   exit 1
 fi
 
@@ -28,7 +28,7 @@ output=$(fleek site:deploy"$flags")
 if [ $? -ne 0 ]; then
   echo "$output"
   echo "Site deployment failed"
-  exit
+  exit 1
 fi
 
 # Export outputs
