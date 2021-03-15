@@ -34,4 +34,4 @@ fi
 # Export outputs
 echo "$output"
 deployUrl=$(echo "$output" | grep -Eo 'https://[^ >]+' | head -1)
-echo "::set-output deployUrl=$deployUrl"
+echo "::set-output name=deployUrl::$deployUrl"
