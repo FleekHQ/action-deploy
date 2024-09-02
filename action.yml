@@ -17,6 +17,8 @@ inputs:
 outputs:
   deployUrl:
     description: 'Website Url to view the API'
+  siteCid:
+    description: 'The site CID'
 runs:
   using: 'docker'
   image: 'Dockerfile'

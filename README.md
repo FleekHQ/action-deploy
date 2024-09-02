@@ -30,6 +30,8 @@ jobs:
           apiKey: ${{ secrets.FLEEK_API_KEY }}
       - name: Get the output url
         run: echo "Deploy url is ${{ steps.deploy.outputs.deployUrl }}"
+      - name: Get the site cid
+        run: echo "Site cid is ${{ steps.deploy.outputs.siteCid }}"
 ```
 
 

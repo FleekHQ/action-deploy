@@ -35,3 +35,5 @@ fi
 echo "$output"
 deployUrl=$(echo "$output" | grep -Eo 'https://[^ >]+' | head -1)
 echo "::set-output name=deployUrl::$deployUrl"
+siteCid=$(echo "$output" | sed -n 's/^Site cid is \(.*\)$/\1/p')
+echo "::set-output name=siteCid::$siteCid"
